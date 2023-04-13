@@ -5,13 +5,14 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Клавиатурный_Тренажерь_Wpf"
         mc:Ignorable="d"
-        Title="Клавиатурный тренажер" Height="540" Width="900" Icon="/ico.png">
+        Title="Клавиатурный тренажер" Height="543" Width="900" Icon="/ico.png" ResizeMode="NoResize">
     <Grid>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="57*"/>
             <ColumnDefinition Width="86*"/>
             <ColumnDefinition Width="22*"/>
-            <ColumnDefinition Width="735*"/>
+            <ColumnDefinition Width="549*"/>
+            <ColumnDefinition Width="186*"/>
         </Grid.ColumnDefinitions>
         <Grid.RowDefinitions>
             <RowDefinition Height="30"></RowDefinition>
@@ -20,7 +21,14 @@
             <RowDefinition></RowDefinition>
             <RowDefinition Height="30"></RowDefinition>
         </Grid.RowDefinitions>
-        <Grid x:Name="Grid_MainControls" Grid.Row="1" Background="Aqua" Grid.ColumnSpan="4">
+        <Grid Grid.Row="0" Background="LightGray" Grid.ColumnSpan="5">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="53*"/>
+                <ColumnDefinition Width="97*"/>
+            </Grid.ColumnDefinitions>
+        </Grid>
+
+        <Grid x:Name="Grid_MainControls" Grid.Row="1" Background="#FF6BE2E2" Grid.ColumnSpan="5">
             <Grid.RowDefinitions>
                 <RowDefinition></RowDefinition>
                 <RowDefinition></RowDefinition>
@@ -44,7 +52,7 @@
             <Button Grid.Column="3" Grid.Row="0" x:Name="Button_EndGame" Margin="3" FontFamily="Segoe Script" FontSize="18">End</Button>
             <Button Grid.Column="3" Grid.Row="1" x:Name="Button_ShowResults" Margin="3" FontFamily="Segoe Script" FontSize="18">Results</Button>
         </Grid>
-        <Grid Grid.Column="0" Grid.Row="2" Grid.ColumnSpan="4">
+        <Grid Grid.Column="0" Grid.Row="2" Grid.ColumnSpan="5">
             <Grid.RowDefinitions>
                 <RowDefinition></RowDefinition>
                 <RowDefinition></RowDefinition>
@@ -52,7 +60,7 @@
             <RichTextBox Background="Aquamarine" IsReadOnly="True" x:Name="RichTextBox_Quests" Grid.Row="0"></RichTextBox>
             <RichTextBox Background="Aquamarine" IsReadOnly="True" x:Name="RichTextBox_Answers" Grid.Row="1"></RichTextBox>
         </Grid>
-        <Grid Grid.Row="3" Grid.Column="0" x:Name="Grid_Keyboard" Background="LightGray" Grid.ColumnSpan="4">
+        <Grid Grid.Row="3" Grid.Column="0" x:Name="Grid_Keyboard" Background="LightGray" Grid.ColumnSpan="5">
             <Grid.RowDefinitions>
                 <RowDefinition></RowDefinition>
                 <RowDefinition></RowDefinition>
@@ -76,7 +84,7 @@
                 <ColumnDefinition></ColumnDefinition>
                 <ColumnDefinition></ColumnDefinition>
                 <ColumnDefinition></ColumnDefinition>
-                
+
             </Grid.ColumnDefinitions>
             <Border Grid.Row="0" Grid.Column="0" BorderBrush="Black" BorderThickness="3" CornerRadius="8" Background="Red" Margin="5" Width="50" Height="50">
                 <TextBlock VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="26">~</TextBlock>
@@ -117,7 +125,7 @@
             <Border Grid.Row="0" Grid.Column="12" BorderBrush="Black" BorderThickness="3" CornerRadius="8" Background="#FF2EFF00" Margin="5" Width="50" Height="50">
                 <TextBlock VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="26">+</TextBlock>
             </Border>
-            <Border Grid.Row="0" Grid.Column="13" BorderBrush="Black" BorderThickness="3" CornerRadius="8" Background="#FF9C999C" Margin="5" Width="106" Height="50" Grid.ColumnSpan="2" HorizontalAlignment="Left">
+            <Border Grid.Row="0" Grid.Column="13" BorderBrush="Black" BorderThickness="3" CornerRadius="8" Background="#FF9C999C" Margin="5" Width="108" Height="50" Grid.ColumnSpan="2" HorizontalAlignment="Left">
                 <TextBlock VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="20"><Run Text="Backspace"/></TextBlock>
             </Border>
 
@@ -127,8 +135,44 @@
             <Border Grid.Row="1" Grid.Column="1" BorderBrush="Black" BorderThickness="3" CornerRadius="8" Background="Red" Margin="5" Width="50" Height="50" Grid.ColumnSpan="2">
                 <TextBlock VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="26"><Run Text="Q"/></TextBlock>
             </Border>
+            <Border Grid.Row="1" Grid.Column="2" BorderBrush="Black" BorderThickness="3" CornerRadius="8" Background="Yellow" Margin="5" Width="50" Height="50" Grid.ColumnSpan="2">
+                <TextBlock VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="26"><Run Text="W"/></TextBlock>
+            </Border>
+            <Border Grid.Row="1" Grid.Column="3" BorderBrush="Black" BorderThickness="3" CornerRadius="8" Background="#FF2EFF00" Margin="5" Width="50" Height="50" Grid.ColumnSpan="2">
+                <TextBlock VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="26"><Run Text="E"/></TextBlock>
+            </Border>
+            <Border Grid.Row="1" Grid.Column="4" BorderBrush="Black" BorderThickness="3" CornerRadius="8" Background="#FF0097FF" Margin="5" Width="50" Height="50" Grid.ColumnSpan="2">
+                <TextBlock VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="26"><Run Text="R"/></TextBlock>
+            </Border>
+            <Border Grid.Row="1" Grid.Column="5" BorderBrush="Black" BorderThickness="3" CornerRadius="8" Background="#FF0097FF" Margin="5" Width="50" Height="50" Grid.ColumnSpan="2">
+                <TextBlock VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="26"><Run Text="T"/></TextBlock>
+            </Border>
+            <Border Grid.Row="1" Grid.Column="6" BorderBrush="Black" BorderThickness="3" CornerRadius="8" Background="#FFB13FAD" Margin="5" Width="50" Height="50" Grid.ColumnSpan="2">
+                <TextBlock VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="26"><Run Text="Y"/></TextBlock>
+            </Border>
+            <Border Grid.Row="1" Grid.Column="7" BorderBrush="Black" BorderThickness="3" CornerRadius="8" Background="#FFB13FAD" Margin="5" Width="50" Height="50" Grid.ColumnSpan="2">
+                <TextBlock VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="26"><Run Text="U"/></TextBlock>
+            </Border>
+            <Border Grid.Row="1" Grid.Column="8" BorderBrush="Black" BorderThickness="3" CornerRadius="8" Background="Red" Margin="5" Width="50" Height="50" Grid.ColumnSpan="2">
+                <TextBlock VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="26"><Run Text="I"/></TextBlock>
+            </Border>
+            <Border Grid.Row="1" Grid.Column="9" BorderBrush="Black" BorderThickness="3" CornerRadius="8" Background="Yellow" Margin="5" Width="50" Height="50" Grid.ColumnSpan="2">
+                <TextBlock VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="26"><Run Text="O"/></TextBlock>
+            </Border>
+            <Border Grid.Row="1" Grid.Column="10" BorderBrush="Black" BorderThickness="3" CornerRadius="8" Background="#FF2EFF00" Margin="5" Width="50" Height="50" Grid.ColumnSpan="2">
+                <TextBlock VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="26"><Run Text="P"/></TextBlock>
+            </Border>
+            <Border Grid.Row="1" Grid.Column="11" BorderBrush="Black" BorderThickness="3" CornerRadius="8" Background="#FF2EFF00" Margin="5" Width="50" Height="50" Grid.ColumnSpan="2">
+                <TextBlock VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="26">{</TextBlock>
+            </Border>
+            <Border Grid.Row="1" Grid.Column="12" BorderBrush="Black" BorderThickness="3" CornerRadius="8" Background="#FF2EFF00" Margin="5" Width="50" Height="50" Grid.ColumnSpan="2">
+                <TextBlock VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="26">}</TextBlock>
+            </Border>
+            <Border Grid.Row="1" Grid.Column="13" BorderBrush="Black" BorderThickness="3" CornerRadius="8" Background="#FF2EFF00" Margin="5" Width="80" Height="50" Grid.ColumnSpan="2" HorizontalAlignment="Right">
+                <TextBlock VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="26">|</TextBlock>
+            </Border>
         </Grid>
-        <StatusBar Grid.Row="3" Background="Chartreuse" Grid.ColumnSpan="4" Margin="0,314,0,0" Grid.RowSpan="2">
+        <StatusBar Grid.Row="4" Background="SlateGray" Grid.ColumnSpan="5" Grid.RowSpan="2">
             <StatusBar.ItemsPanel>
                 <ItemsPanelTemplate>
                     <Grid>
