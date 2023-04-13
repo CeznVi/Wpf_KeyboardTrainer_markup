@@ -125,11 +125,11 @@
             <Border Grid.Row="0" Grid.Column="12" BorderBrush="Black" BorderThickness="3" CornerRadius="8" Background="#FF2EFF00" Margin="5" Width="50" Height="50">
                 <TextBlock VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="26">+</TextBlock>
             </Border>
-            <Border Grid.Row="0" Grid.Column="13" BorderBrush="Black" BorderThickness="3" CornerRadius="8" Background="#FF9C999C" Margin="5" Width="108" Height="50" Grid.ColumnSpan="2" HorizontalAlignment="Left">
+            <Border Grid.Row="0" Grid.Column="13" BorderBrush="Black" BorderThickness="3" CornerRadius="8" Background="#FF9C999C" Margin="5" Width="109" Height="50" Grid.ColumnSpan="2" HorizontalAlignment="Left">
                 <TextBlock VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="20"><Run Text="Backspace"/></TextBlock>
             </Border>
 
-            <Border Grid.Row="1" Grid.Column="0" BorderBrush="Black" BorderThickness="3" CornerRadius="8" Background="#FF9C999C" Margin="5" Width="78" Height="50" Grid.ColumnSpan="2" HorizontalAlignment="Left">
+            <Border Grid.Row="1" Grid.Column="0" BorderBrush="Black" BorderThickness="3" CornerRadius="8" Background="#FF9C999C" Margin="5" Width="80" Height="50" Grid.ColumnSpan="2" HorizontalAlignment="Left">
                 <TextBlock VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="20"><Run Text="Tab"/></TextBlock>
             </Border>
             <Border Grid.Row="1" Grid.Column="1" BorderBrush="Black" BorderThickness="3" CornerRadius="8" Background="Red" Margin="5" Width="50" Height="50" Grid.ColumnSpan="2">
@@ -171,6 +171,109 @@
             <Border Grid.Row="1" Grid.Column="13" BorderBrush="Black" BorderThickness="3" CornerRadius="8" Background="#FF2EFF00" Margin="5" Width="80" Height="50" Grid.ColumnSpan="2" HorizontalAlignment="Right">
                 <TextBlock VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="26">|</TextBlock>
             </Border>
+
+            <Border Grid.Row="2" Grid.Column="0" BorderBrush="Black" BorderThickness="3" CornerRadius="8" Background="#FF9C999C" Margin="5" Width="109" Height="50" Grid.ColumnSpan="2" HorizontalAlignment="Left">
+                <TextBlock VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="20"><Run Text="Caps Lock"/></TextBlock>
+            </Border>
+            <Border Grid.Row="2" Grid.Column="1" BorderBrush="Black" BorderThickness="3" CornerRadius="8" Background="Red" Margin="5" Width="50" Height="50" Grid.ColumnSpan="2" HorizontalAlignment="Right">
+                <TextBlock VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="26"><Run Text="A"/></TextBlock>
+            </Border>
+            <Border Grid.Row="2" Grid.Column="2" BorderBrush="Black" BorderThickness="3" CornerRadius="8" Background="Yellow" Margin="5" Width="50" Height="50" Grid.ColumnSpan="2" HorizontalAlignment="Right">
+                <TextBlock VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="26"><Run Text="S"/></TextBlock>
+            </Border>
+            <Border Grid.Row="2" Grid.Column="3" BorderBrush="Black" BorderThickness="3" CornerRadius="8" Background="#FF2EFF00" Margin="5" Width="50" Height="50" Grid.ColumnSpan="2" HorizontalAlignment="Right">
+                <TextBlock VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="26"><Run Text="D"/></TextBlock>
+            </Border>
+            <Border Grid.Row="2" Grid.Column="4" BorderBrush="Black" BorderThickness="3" CornerRadius="8" Background="#FF0097FF" Margin="5" Width="50" Height="50" Grid.ColumnSpan="2" HorizontalAlignment="Right">
+                <TextBlock VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="26"><Run Text="F"/></TextBlock>
+            </Border>
+            <Border Grid.Row="2" Grid.Column="5" BorderBrush="Black" BorderThickness="3" CornerRadius="8" Background="#FF0097FF" Margin="5" Width="50" Height="50" Grid.ColumnSpan="2" HorizontalAlignment="Right">
+                <TextBlock VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="26"><Run Text="G"/></TextBlock>
+            </Border>
+            <Border Grid.Row="2" Grid.Column="6" BorderBrush="Black" BorderThickness="3" CornerRadius="8" Background="#FFB13FAD" Margin="5" Width="50" Height="50" Grid.ColumnSpan="2" HorizontalAlignment="Right">
+                <TextBlock VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="26"><Run Text="H"/></TextBlock>
+            </Border>
+            <Border Grid.Row="2" Grid.Column="7" BorderBrush="Black" BorderThickness="3" CornerRadius="8" Background="#FFB13FAD" Margin="5" Width="50" Height="50" Grid.ColumnSpan="2" HorizontalAlignment="Right">
+                <TextBlock VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="26"><Run Text="J"/></TextBlock>
+            </Border>
+            <Border Grid.Row="2" Grid.Column="8" BorderBrush="Black" BorderThickness="3" CornerRadius="8" Background="Red" Margin="5" Width="50" Height="50" Grid.ColumnSpan="2" HorizontalAlignment="Right">
+                <TextBlock VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="26"><Run Text="K"/></TextBlock>
+            </Border>
+            <Border Grid.Row="2" Grid.Column="9" BorderBrush="Black" BorderThickness="3" CornerRadius="8" Background="Yellow" Margin="5" Width="50" Height="50" Grid.ColumnSpan="2" HorizontalAlignment="Right">
+                <TextBlock VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="26"><Run Text="L"/></TextBlock>
+            </Border>
+            <Border Grid.Row="2" Grid.Column="10" BorderBrush="Black" BorderThickness="3" CornerRadius="8" Background="#FF2EFF00" Margin="5" Width="50" Height="50" Grid.ColumnSpan="2" HorizontalAlignment="Right">
+                <TextBlock VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="26"><Run Text=":"/></TextBlock>
+            </Border>
+            <Border Grid.Row="2" Grid.Column="11" BorderBrush="Black" BorderThickness="3" CornerRadius="8" Background="#FF2EFF00" Margin="5" Width="50" Height="50" Grid.ColumnSpan="2" HorizontalAlignment="Right">
+                <TextBlock VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="26">"</TextBlock>
+            </Border>
+            <Border Grid.Row="2" Grid.Column="13" BorderBrush="Black" BorderThickness="3" CornerRadius="8" Background="#FF9C999C" Margin="5" Width="109" Height="50" Grid.ColumnSpan="2" HorizontalAlignment="Left">
+                <TextBlock VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="20"><Run Text="Enter"/></TextBlock>
+            </Border>
+
+            <Border Grid.Row="3" Grid.Column="0" BorderBrush="Black" BorderThickness="3" CornerRadius="8" Background="#FF9C999C" Margin="5" Width="139" Height="50" Grid.ColumnSpan="3" HorizontalAlignment="Left">
+                <TextBlock VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="20"><Run Text="Shift"/></TextBlock>
+            </Border>
+            <Border Grid.Row="3" Grid.Column="2" BorderBrush="Black" BorderThickness="3" CornerRadius="8" Background="Red" Margin="5" Width="50" Height="50" Grid.ColumnSpan="2" HorizontalAlignment="Center">
+                <TextBlock VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="26"><Run Text="Z"/></TextBlock>
+            </Border>
+            <Border Grid.Row="3" Grid.Column="3" BorderBrush="Black" BorderThickness="3" CornerRadius="8" Background="Yellow" Margin="5" Width="50" Height="50" Grid.ColumnSpan="2" HorizontalAlignment="Center">
+                <TextBlock VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="26"><Run Text="X"/></TextBlock>
+            </Border>
+            <Border Grid.Row="3" Grid.Column="4" BorderBrush="Black" BorderThickness="3" CornerRadius="8" Background="#FF2EFF00" Margin="5" Width="50" Height="50" Grid.ColumnSpan="2" HorizontalAlignment="Center">
+                <TextBlock VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="26"><Run Text="C"/></TextBlock>
+            </Border>
+            <Border Grid.Row="3" Grid.Column="5" BorderBrush="Black" BorderThickness="3" CornerRadius="8" Background="#FF0097FF" Margin="5" Width="50" Height="50" Grid.ColumnSpan="2" HorizontalAlignment="Center">
+                <TextBlock VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="26"><Run Text="V"/></TextBlock>
+            </Border>
+            <Border Grid.Row="3" Grid.Column="6" BorderBrush="Black" BorderThickness="3" CornerRadius="8" Background="#FF0097FF" Margin="5" Width="50" Height="50" Grid.ColumnSpan="2" HorizontalAlignment="Center">
+                <TextBlock VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="26"><Run Text="B"/></TextBlock>
+            </Border>
+            <Border Grid.Row="3" Grid.Column="7" BorderBrush="Black" BorderThickness="3" CornerRadius="8" Background="#FFB13FAD" Margin="5" Width="50" Height="50" Grid.ColumnSpan="2" HorizontalAlignment="Center">
+                <TextBlock VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="26"><Run Text="N"/></TextBlock>
+            </Border>
+            <Border Grid.Row="3" Grid.Column="8" BorderBrush="Black" BorderThickness="3" CornerRadius="8" Background="#FFB13FAD" Margin="5" Width="50" Height="50" Grid.ColumnSpan="2" HorizontalAlignment="Center">
+                <TextBlock VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="26"><Run Text="M"/></TextBlock>
+            </Border>
+            <Border Grid.Row="3" Grid.Column="9" BorderBrush="Black" BorderThickness="3" CornerRadius="8" Background="Red" Margin="5" Width="50" Height="50" Grid.ColumnSpan="2" HorizontalAlignment="Center">
+                <TextBlock VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="26"><Run Text="&lt;"></Run></TextBlock>
+            </Border>
+            <Border Grid.Row="3" Grid.Column="10" BorderBrush="Black" BorderThickness="3" CornerRadius="8" Background="Yellow" Margin="5" Width="50" Height="50" Grid.ColumnSpan="2" HorizontalAlignment="Center">
+                <TextBlock VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="26"><Run Text="&gt;"></Run></TextBlock>
+            </Border>
+            <Border Grid.Row="3" Grid.Column="11" BorderBrush="Black" BorderThickness="3" CornerRadius="8" Background="#FF2EFF00" Margin="5" Width="50" Height="50" Grid.ColumnSpan="2" HorizontalAlignment="Center">
+                <TextBlock VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="26"><Run Text="?"></Run></TextBlock>
+            </Border>
+            <Border Grid.Row="3" Grid.Column="12" BorderBrush="Black" BorderThickness="3" CornerRadius="8" Background="#FF9C999C" Margin="5" Width="139" Height="50" Grid.ColumnSpan="3" HorizontalAlignment="Right">
+                <TextBlock VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="20"><Run Text="Shift"/></TextBlock>
+            </Border>
+
+
+            <Border Grid.Row="4" Grid.Column="0" BorderBrush="Black" BorderThickness="3" CornerRadius="8" Background="#FF9C999C" Margin="5" Width="80" Height="50" Grid.ColumnSpan="2" HorizontalAlignment="Left">
+                <TextBlock VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="20"><Run Text="Ctrl"/></TextBlock>
+            </Border>
+            <Border Grid.Row="4" Grid.Column="1" BorderBrush="Black" BorderThickness="3" CornerRadius="8" Background="#FF9C999C" Margin="5" Height="50" Grid.ColumnSpan="2" Width="80" HorizontalAlignment="Right">
+                <TextBlock VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="20"><Run Text="Win"/></TextBlock>
+            </Border>
+            <Border Grid.Row="4" Grid.Column="3" BorderBrush="Black" BorderThickness="3" CornerRadius="8" Background="#FF9C999C" Margin="5" Height="50" Grid.ColumnSpan="2" Width="80" HorizontalAlignment="Left">
+                <TextBlock VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="20"><Run Text="Alt"/></TextBlock>
+            </Border>
+
+            <Border Grid.Row="4" Grid.Column="4" BorderBrush="Black" BorderThickness="3" CornerRadius="8" Background="#FF9C999C" Margin="5" Height="50" Grid.ColumnSpan="7" Width="350" HorizontalAlignment="Center">
+                <TextBlock VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="20"><Run Text="Win"/></TextBlock>
+            </Border>
+            <Border Grid.Row="4" Grid.Column="10" BorderBrush="Black" BorderThickness="3" CornerRadius="8" Background="#FF9C999C" Margin="5" Height="50" Grid.ColumnSpan="2" Width="80" HorizontalAlignment="Right">
+                <TextBlock VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="20"><Run Text="Alt"/></TextBlock>
+            </Border>
+            <Border Grid.Row="4" Grid.Column="12" BorderBrush="Black" BorderThickness="3" CornerRadius="8" Background="#FF9C999C" Margin="5" Height="50" Grid.ColumnSpan="2" Width="80" HorizontalAlignment="Left">
+                <TextBlock VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="20"><Run Text="Win"/></TextBlock>
+            </Border>
+            <Border Grid.Row="4" Grid.Column="13" BorderBrush="Black" BorderThickness="3" CornerRadius="8" Background="#FF9C999C" Margin="5" Height="50" Grid.ColumnSpan="2" Width="80" HorizontalAlignment="Right">
+                <TextBlock VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="20"><Run Text="Ctrl"/></TextBlock>
+            </Border>
+
+
         </Grid>
         <StatusBar Grid.Row="4" Background="SlateGray" Grid.ColumnSpan="5" Grid.RowSpan="2">
             <StatusBar.ItemsPanel>
